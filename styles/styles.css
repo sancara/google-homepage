@@ -20,21 +20,15 @@ nav img {
     padding: 4px;
     border-radius: 50%;
 }
-
-#apps {
-    background-image: url(../images/app.png);
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    margin: 0px;
-    border: 0px;
+#apps:hover {
+    background-image: url(http://www.clker.com/cliparts/K/l/Q/3/c/0/grey-circle-white-background.svg.med.png);
+    background-size: cover;
 }
 
-nav img:hover{
+#user:hover{
     background-color: rgba(128, 128, 128, 0.2);
-    background-size: 100px;
+    border-radius: 50%;
     transform-box: border-box;
-    border-radius: 1.15em;    
 }
 
 nav ul a {
