@@ -4,8 +4,7 @@ body {
 }
 
 header .nav {
-    padding: 48px, 587px;
-    align-content: right;
+    cursor: pointer;
 }
 
 nav img {
@@ -20,8 +19,20 @@ nav img:hover{
     transform-box: border-box;    
 }
 
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul a:hover{
+    text-decoration: underline;
+}
+
 #logo {
     height: 92px;
     width: 272px;
-    
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
 }
