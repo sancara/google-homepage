@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+header .nav {
+    padding: 48px, 587px;
+    align-content: right;
+}
+
+nav img {
+    height: 1.5em;
+    width: 1.5em;
+    padding: 8px;
+}
+
+nav img:hover{
+    background-color: rgba(128, 128, 128, 0.2);
+    background-size: 100px;
+    transform-box: border-box;    
+}
+
+#logo {
+    height: 92px;
+    width: 272px;
+    
+}
