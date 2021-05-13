@@ -3,14 +3,23 @@ body {
     font-size: 13px;
 }
 
-header .nav {
+header {
+    width: 600px;
+    height: 48px;
     cursor: pointer;
+    display: inline;
 }
 
-nav img {
+nav div {
+    width: 600px;
+    height: 48px;
+}
+
+#apps {
+    border: 1px;
     height: 1.5em;
     width: 1.5em;
-    padding: 8px;
+    padding: 6px;
 }
 
 #user {
@@ -18,31 +27,53 @@ nav img {
     height: 2em;
     width: 2em;
     padding: 4px;
-    border-radius: 50%;
 }
+
 #apps:hover {
     background-image: url(http://www.clker.com/cliparts/K/l/Q/3/c/0/grey-circle-white-background.svg.med.png);
     background-size: cover;
 }
 
-#user:hover{
+#user:hover {
     background-color: rgba(128, 128, 128, 0.2);
     border-radius: 50%;
     transform-box: border-box;
+    background-size: 200%;
+    
 }
 
-nav ul a {
-    text-decoration: none;
-}
-
-nav ul a:hover{
+a:hover{
     text-decoration: underline;
+}
+
+li {
+   display: inline;
+   text-align: center; 
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    padding: 0px 15px;
+    border: 0px;
+    margin: 0px;
+    
+}
+
+#img {
+    padding: 0px 15px 0px 0px;
+}
+
+main {
+    margin: 100px;
 }
 
 #logo {
     height: 92px;
     width: 272px;
     cursor: pointer;
+    padding: 3em;
+    margin: 5em;
 }
 
 button {
