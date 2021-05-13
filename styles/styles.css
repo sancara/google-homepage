@@ -13,10 +13,28 @@ nav img {
     padding: 8px;
 }
 
+#user {
+    border: 1px;
+    height: 2em;
+    width: 2em;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+#apps {
+    background-image: url(../images/app.png);
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0px;
+    border: 0px;
+}
+
 nav img:hover{
     background-color: rgba(128, 128, 128, 0.2);
     background-size: 100px;
-    transform-box: border-box;    
+    transform-box: border-box;
+    border-radius: 1.15em;    
 }
 
 nav ul a {
