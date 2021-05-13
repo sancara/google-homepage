@@ -13,6 +13,8 @@ header {
 nav div {
     width: 600px;
     height: 48px;
+    display: flex;
+    flex-direction: row;
 }
 
 #apps {
