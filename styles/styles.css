@@ -11,6 +11,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -99,7 +100,6 @@ main {
     justify-content: center;
 }
 
-
 #logo {
     height: 92px;
     width: 272px;
@@ -156,20 +156,19 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    flex: 1 0 auto;
+    align-items: center; 
+    margin-top: auto;
 }
 
 footer > ul {
     display: grid;
     grid-template: auto 1fr auto / auto 1fr auto;
-    flex-shrink: 0;
 }
 
 ul > span {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    
+    align-items: flex-start;
 }
 
 /* Medias */
