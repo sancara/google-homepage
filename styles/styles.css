@@ -90,14 +90,16 @@ main {
     justify-content: center;
 }
 
+
 #logo {
     height: 92px;
     width: 272px;
     cursor: pointer;
     display: inline-flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 30px 15px;
+    padding: 50px 100px 30px;
 }
 
 input#search {
