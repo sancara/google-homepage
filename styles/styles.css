@@ -85,10 +85,9 @@ li {
  /* here starts body */
 
 main {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template: auto 1fr auto;
     justify-content: center;
-    align-items: center;
 }
 
 #logo {
@@ -101,22 +100,21 @@ main {
     padding: 30px 15px;
 }
 
-input {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: center;   
-    border-radius: 20px;
-    border: 1px solid rgba(128, 128, 128, 0.2)
-}
-
 input#search {
     height: 34px;
     width: 437px;
-    display: block flex;
+    display: row;
+    flex: 1;
     flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
 }
 
+input#search:hover {
+
+    box-shadow: rgba(216, 216, 216, 0.54);
+}
 span {
    padding: 20px;
 }
