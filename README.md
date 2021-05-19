@@ -2,4 +2,4 @@
 First assignment of the Odin's Project to become a full-stack developer.
 
 
-<a href="https://github.com/sancara/google-homepage/"> Watch it LIVE </a>
+<a href="https://sancara.github.io/google-homepage/"> Watch it LIVE </a>
